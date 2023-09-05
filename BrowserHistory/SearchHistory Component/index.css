@@ -1,0 +1,46 @@
+.list-container {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.searchItem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 5px;
+  margin: 5px;
+}
+.time-text {
+  font-weight: 500;
+  margin-right: 55px;
+  color: #64748b;
+}
+
+.bold-text {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #64748b;
+}
+
+.logo-style {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.button-style {
+  border: 0px;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.delete-icon {
+  border: 0px;
+}
