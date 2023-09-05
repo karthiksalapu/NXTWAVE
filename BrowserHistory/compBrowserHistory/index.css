@@ -1,0 +1,43 @@
+.header-container {
+  background-color: #3367d6;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.HistoryLogo {
+  height: 30px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.search-container {
+  display: flex;
+  margin-left: 25%;
+}
+
+.SearchIcon {
+  padding: 5px;
+  border: 1px solid #fff;
+  background-color: #2850a7;
+  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.inputBox {
+  padding: 5px;
+  border: 1px solid #fff;
+  background-color: #2850a7;
+  width: 400px;
+  color: white;
+}
+
+.empty-history-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
