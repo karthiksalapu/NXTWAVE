@@ -1,0 +1,91 @@
+/* Write your CSS here */
+
+#bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#appointments-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#above-container,
+#below-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-heading-style {
+  font-size: 30px;
+}
+
+.label-style {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.input-item-style {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #111;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.inactive-starred-button {
+  height: 24px;
+  width: 80px;
+  align-self: center;
+  border: 1px solid #9897f0;
+  border-radius: 18px;
+  background-color: transparent;
+  color: #9796f0;
+}
+
+.active-starred-button {
+  height: 24px;
+  width: 80px;
+  align-self: center;
+  border: 1px solid #9897f0;
+  border-radius: 18px;
+  background-color: #9897f0;
+  color: #fff;
+}
+
+.Add-Button {
+  color: #fff;
+  background-color: #8b5cf6;
+  font-size: 16px;
+  /* font-weight: bold; */
+
+  height: 40px;
+  width: 80px;
+
+  border: 0px;
+  border-radius: 5px;
+}
+
+.appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+}
