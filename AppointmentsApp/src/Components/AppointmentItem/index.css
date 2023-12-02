@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.list-item-style {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  width: 320px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#appointment-task-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  max-width: 100%;
+  flex-wrap: nowrap;
+}
+
+.star-icon-button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.title-style {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+.date-style {
+  margin: 0px;
+  color: #b5b7c4;
+}
