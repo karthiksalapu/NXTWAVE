@@ -1,0 +1,126 @@
+*** HTML ***
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="quiz-question-container">
+      <h1 class="score">Score: 25/45</h1>
+      <div class="question-container">
+        <h1 class="question-number">Question 10</h1>
+        <p class="question-text">
+          Which of the following is the content of the HTML paragraph
+          element?
+        </p>
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/quiz-question-img.png"
+          class="question-image"
+        />
+      </div>
+      <div class="options-container">
+        <ul class="options-list">
+          <li class="option">A. HTML heading element</li>
+          <li class="option">B. HTML paragraph element</li>
+          <li class="option correct-option">C. This is paragraph...</li>
+          <li class="option">D. None of the given options</li>
+        </ul>
+        <div class="d-flex flex-row justify-content-center">
+          <button class="button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+*** CSS ***
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.quiz-question-container {
+  background-color: #875fc0;
+  padding: 24px;
+}
+
+.score {
+  text-align: right;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.question-container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.question-number {
+  color: #1f2933;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.question-text {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.question-image {
+  width: 240px;
+}
+
+.options-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.options-list{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.option {
+  color: #323f4b;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #323f4b;
+  border-radius: 8px;
+  padding: 13px;
+  margin: 10px;
+}
+
+.correct-option {
+  color: #ffffff;
+  background-color: #875fc0;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #fbaf00;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  width: 98px;
+  height: 38px;
+  border-width: 0px;
+  border-radius: 8px;
+}
