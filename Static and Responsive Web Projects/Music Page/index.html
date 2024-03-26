@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHomePage">
+        <div class="bg-container d-flex flex-column justify-content-center">
+            <div class="Title-container">
+                <h1 class="Title">Sleep Music</h1>
+                <p class="discription">Soothing bedtime to help you fell into a <br />
+                    deep and natural sleep
+                </p>
+            </div>
+            <div>
+                <div class="night-island-card">
+                    <h1 class="Nightisland-Title">Night Island</h1>
+                </div>
+                <p class="discription">Non-stop 8-hour mixes of our most popular <br />
+                    sleep audio
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="Home-page-button" onclick="display('sectionplaylist')">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionplaylist">
+        <div class="podcast-container">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="podcast-cover" />
+            <div class="Podcast-bottom-container">
+                <h1 class="Nightisland-Title2">Night Island</h1>
+                <p class="podcast-page-discription">Ease the mind into a restful night's sleep with these <br />
+                    deep, amblent tones.</p>
+                <p class="podcast-page-discription">45 MIN SLEEP MUSIC</p>
+                <P class="Related-text">Related</P>
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="Related-image-size" />
+                        <p class="podcast-page-discription">Moon Clouds</p>
+                        <p class="podcast-page-discription">55 MIN SLEEP MUSIC</p>
+                    </div>
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="Related-image-size" />
+                        <p class="podcast-page-discription">Sweet Sleep</p>
+                        <p class="podcast-page-discription">60 MIN SLEEP MUSIC</p>
+                    </div>
+                </div>
+                <button class="Home-page-button" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
