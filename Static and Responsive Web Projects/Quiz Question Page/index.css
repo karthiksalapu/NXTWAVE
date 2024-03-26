@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #875fc0;
+    padding: 15px;
+
+}
+
+.score-text {
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.Top-card-container {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bottom-card-container {
+    background-color: white;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.image-size {
+    height: 120px;
+    width: 250px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.main-heading {
+    font-size: 20px;
+    text-align: center;
+    color: #1f2933;
+    font-family: roboto;
+}
+
+.question-para {
+    font-size: 15px;
+    color: #323f4b;
+    text-align: center;
+    font-family: roboto;
+}
+
+.options {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.options-container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-top: 24px;
+    /* margin-bottom: 24px; */
+}
+
+.option-button {
+    color: #323f4b;
+    background-color: white;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #323f4b;
+    text-align: left;
+    padding: 13px;
+    margin: 10px;
+}
+
+.option-button-purple {
+    color: white;
+    background-color: #875fc0;
+}
+
+.submit-button {
+    background-color: #fbaf00;
+    color: white;
+    height: 33px;
+    width: 90px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+}
