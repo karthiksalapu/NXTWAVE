@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.cover-image {
+    width: 100VW;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png');
+    height: 30vh;
+    background-size: cover;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.podcasts-heading {
+    font-size: 30px;
+    font-family: roboto;
+}
+
+.profile-images {
+    height: 90px;
+    width: 120px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.headings {
+    font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+    color: #151765;
+    font-weight: bold;
+}
+
+.episodes {
+    font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+    color: #5a7184;
+}
+
+.puri-Top-container {
+    background-color: #151765;
+    padding: 15px;
+    color: white;
+
+}
+
+.puri-bottom-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.puri-top-spacing {
+    margin-top: 15px;
+}
+
+.puri-podcast-image {
+    height: 100px;
+    width: 120px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.puri-heading {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.puri-section-top-names {
+    font-size: 10px;
+}
+
+.puri-bottom-headings {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #151765;
+}
+
+.puri-section-bottom-names {
+    font-size: 18px;
+    color: #5a7184;
+    font-family: roboto;
+
+}
+
+.puri-bottom-spacing {
+    margin-top: 12px;
+}
+
+.puri-section-bottom-time {
+    font-size: 12px;
+    color: #151765;
+    font-family: roboto;
+
+}
+
+.puri-videos-image {
+    height: 120px;
+    width: 120px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.back-button {
+    background-color: #151765;
+    border-radius: 15px;
+    color: white;
+    border-width: 0px;
+    height: 25px;
+    width: 70px;
+    font-size: 10px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+}
