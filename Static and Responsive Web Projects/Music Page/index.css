@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.Title-container {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.Title {
+    color: white;
+    text-align: center;
+    font-family: "Bree Serif";
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.discription {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.night-island-card {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    padding: 60px;
+    background-size: cover;
+    margin-top: 70px;
+
+}
+
+.Nightisland-Title {
+    color: #ffe7bf;
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 30px;
+
+}
+
+.Home-page-button {
+    text-align: center;
+    font-family: "Bree Serif";
+    background-color: #8e97fd;
+    border-radius: 15px;
+    color: white;
+    border-width: 0px;
+    font-size: 13px;
+    height: 30px;
+    width: 100px;
+}
+
+.podcast-container {
+    background-color: #03174c;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Podcast-bottom-container {
+    background-color: #03174c;
+    background-size: cover;
+    height: 100vh;
+    padding: 15px;
+}
+
+.podcast-cover {
+    height: 35vh;
+    width: 100vw;
+
+}
+
+.Nightisland-Title2 {
+    color: white;
+    text-align: left;
+    font-family: "Bree Serif";
+    font-size: 30px;
+
+}
+
+.podcast-page-discription {
+    font-size: 13px;
+    color: #98a1bd;
+    text-align: left;
+    font-family: "Bree Serif";
+}
+
+.Related-text {
+    color: white;
+    text-align: left;
+    font-family: "Bree Serif";
+    font-size: 18px;
+
+}
+
+.Related-image-size {
+    height: 90px;
+    width: 140px;
+    margin-right: 5px;
+}
