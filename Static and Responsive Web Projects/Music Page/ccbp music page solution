@@ -1,0 +1,151 @@
+*** HTML ***
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="sectionMusicHome">
+      <div class="music-bg-container">
+        <div class="music-header-bg-container d-flex flex-column justify-content-center text-center">
+          <h1 class="music-heading">Sleep Music</h1>
+          <p class="music-description">Soothing bedtime music to help you fall
+            into a deep and natural sleep</p>
+        </div>
+        <div class="night-island-card text-center">
+          <div class="night-island-bg-container d-flex flex-column justify-content-center text-center">
+            <h1 class="night-island-card-heading">Night Island</h1>
+          </div>
+          <p class="music-description">Non-stop 8-hour mixes of our
+            most popular sleep audio</p>
+          <button class="button" onclick="display('sectionMusicDetails')">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionMusicDetails">
+      <div class="music-details-bg-container">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="music-details-header-image"/>
+        <div class="music-details-container">
+          <h1 class="music-heading">Night Island</h1>
+          <p class="music-details-text">Ease the mind into a restful night’s sleep  with
+            these deep, amblent tones.</p>
+          <p class="music-details-text">45 MIN SLEEP MUSIC</p>
+          <h1 class="related-music-heading">Related</h1>
+          <div class="d-flex flex-row">
+            <div class="related-music-card">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="related-music-image"/>
+              <h1 class="related-music-name">Moon Clouds</h1>
+              <p class="music-details-text">55 MIN SLEEP MUSIC</p>
+            </div>
+            <div class="related-music-card">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="related-music-image"/>
+              <h1 class="related-music-name">Sweet Sleep</h1>
+              <p class="music-details-text">60 MIN SLEEP MUSIC</p>
+            </div>
+          </div>
+          <button class="button" onclick="display('sectionMusicHome')">Back</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+  </body>
+</html>
+
+
+*** CSS ***
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.music-bg-container {
+    background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.music-header-bg-container {
+    height: 40vh;
+    padding: 30px;
+}
+
+.music-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 28px;
+}
+
+.music-description {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 14px;
+}
+
+.night-island-card {
+    padding: 30px;
+}
+
+.night-island-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    height: 23vh;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.night-island-card-heading {
+    color: #ffe7bf;
+    font-family: "Bree Serif";
+    font-size: 32px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #8e97fd;
+    font-family: "Bree Serif";
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 38px;
+}
+
+.music-details-bg-container {
+    background-color: #03174c;
+}
+
+.music-details-header-image {
+    width: 100vw;
+}
+
+.music-details-container {
+    padding: 20px;
+}
+
+.music-details-text {
+    color: #98a1bd;
+    font-family: "Bree Serif";
+    font-size: 14px;
+}
+
+.related-music-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.related-music-card {
+    margin-right: 10px;
+}
+
+.related-music-image {
+    width: 40vw;
+    margin-bottom: 3px;
+}
+
+.related-music-name {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
