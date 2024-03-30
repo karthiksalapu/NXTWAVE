@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage" class="home-page-bg-container">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="home-page-image" />
+        <h1 class="myprojects-text"> My Projects</h1>
+        <p class="home-page-discription">There are a few of my static website projects that i have <br />
+            developed using HTML, CSS and Bootstrap
+        </p>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="home-page-imagelinks" onclick="display('sectionadvancedTechnologies')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="home-page-imagelinks" onclick="display('sectiondiwalisale')" />
+            </div>
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="home-page-imagelinks" onclick="display('sectionfoodorderpage')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="home-page-imagelinks" onclick="display('sectionnewspage')" />
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfoodorderpage">
+        <div class="food-bg-container d-flex flex-column justify-content-end">
+            <div class="food-card">
+                <h1 class="food-main-heading">Happy Meals</h1>
+                <p class="food-paragraph">discover the best foods over the 1,000 restaurants</p>
+                <button class="food-button">Book Now</button>
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionadvancedTechnologies">
+        <div class="tech-bg-container d-flex flex-column justify-content-end">
+            <div class="card-container">
+                <h1 class="tech-main-heading">Advanced Technologies</h1>
+                <p class="tech-paragraph">machinery and equipment developed from the application of
+                    scientific knowledge</p>
+                <div class="tech-button">
+                    <button class="button1">Learn more</button>
+                    <button class="button2" onclick="display('sectionhomepage')">Back</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sectionnewspage">
+        <div class="news-bg-container d-flex flex-column justify-content-end">
+            <div class="news-card-container d-flex flex-column justify-content-left">
+                <p class="news-paragraph d-flex justify-content-left">NEWS OF THE DAY</p>
+                <h1 class="news-bold-heading">iB Cricket announces world's first
+                    virtual Reality Cricket League</h1>
+                <p class="news-paragraph"> iB Cricket and Viu together have annunced the world's first virtual reality Cricket league featuring 12 internatonal
+                    cricketers, who will be competing againist each other for the iB Cricket Super Over League title in Mumbai. Iconic cricketers like
+                    virender Sehwag, Suresh Raina, Brendin Mccullum will be competing in the league.</p>
+                <button class="news-button">Read more</button>
+                <button class="btn btn-secondary" onclick="display('sectionhomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondiwalisale">
+        <div class="diwali-top-background">
+            <h1 class="diwali-top-card-heading">celebrate diwali with your friends</h1>
+        </div>
+        <div class="diwali-bottom-container">
+            <div class="diwali-bottom-container d-flex flex-row justify-content-center">
+                <div class="diwali-sub-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-sub-heading">Diwali air ballon</h1>
+                    <p class="diwali-card-paragraph">Rs 369</p>
+                </div>
+                <div class="diwali-sub-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-sub-heading">Diwali-Lamp</h1>
+                    <p class="diwali-card-paragraph">Rs 50</p>
+                </div>
+            </div>
+            <div class="diwali-bottom-container d-flex flex-row justify-content-center">
+                <div class="diwali-sub-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-sub-heading">Sparklers</h1>
+                    <p class="diwali-card-paragraph">Rs 150</p>
+                </div>
+                <div class="diwali-sub-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-sub-heading">Fire Cracker</h1>
+                    <p class="diwali-card-paragraph">Rs 500</p>
+                </div>
+
+            </div>
+
+            <button class="btn btn-primary diwali-section-button">View More</button>
+            <button class="btn btn-primary diwali-section-button" onclick="display('sectionhomepage')"> Back </button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
