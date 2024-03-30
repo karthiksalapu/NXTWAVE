@@ -1,0 +1,272 @@
+*** HTML ***
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="sectionBookStoreHome">
+      <div class="book-store-home-page">
+        <h1 class="home-page-heading">Popular Book</h1>
+        <div class="popular-book-container d-flex flex-row">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+            class="popular-book-image"
+          />
+          <div class="popular-book-short-details-container">
+            <h1 class="popular-book-heading">Wings of Fire</h1>
+            <p class="popular-book-text">
+              An Autobiography of<br />Abdul Kalam
+            </p>
+            <p class="popular-book-author">by Arun Tiwari</p>
+            <button
+              class="button btn btn-primary"
+              onclick="display('sectionWingsOfFireBookDetails')"
+            >
+              Read Now
+            </button>
+          </div>
+        </div>
+        <h1 class="recommended-books-heading">Recommended Books</h1>
+        <div class="recommended-book-container d-flex flex-row">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+            class="recommended-book-image"
+          />
+          <div class="recommended-book-short-details-container">
+            <h1 class="recommended-book-name">The 3 mistakes of my life</h1>
+            <p class="recommended-book-description">
+              Indian author<br />by Chetan Bhagat
+            </p>
+            <button
+              class="button btn btn-primary"
+              onclick="display('sectionTheThreeMistakesOfMyLifeBookDetails')"
+            >
+              Read Now
+            </button>
+          </div>
+        </div>
+        <div class="recommended-book-container d-flex flex-row">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+            class="recommended-book-image"
+          />
+          <div class="recommended-book-short-details-container">
+            <h1 class="recommended-book-name">Harry Potter</h1>
+            <p class="recommended-book-description">
+              and the Sorcerer's Stone<br />by J.K.Rowling
+            </p>
+            <button
+              class="button btn btn-primary"
+              onclick="display('sectionHarryPotterBookDetails')"
+            >
+              Read Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionWingsOfFireBookDetails">
+      <div class="book-details-page">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+          class="book-details-page-image"
+        />
+        <h1 class="book-name">Wings of Fire</h1>
+        <p class="author">by Arun Tiwari</p>
+        <p class="book-description">
+          Every common man who by his sheer grit and hard work achieves success
+          should share his story with the rest for they may find inspiration and
+          strength to go on, in his story. The 'Wings of Fire' is one such
+          autobiography by visionary scientist Dr. APJ Abdul Kalam, who from
+          very humble beginnings rose to be the President of India. The book is
+          full of insights, personal moments and life experiences of Dr. Kalam.
+          It gives us an understanding on his journey of success.
+        </p>
+        <button
+          class="button btn btn-warning"
+          onclick="display('sectionBookStoreHome')"
+        >
+          Back
+        </button>
+        <button class="button btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+    <div id="sectionTheThreeMistakesOfMyLifeBookDetails">
+      <div class="book-details-page">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+          class="book-details-page-image"
+        />
+        <h1 class="book-name">The 3 mistakes of my life</h1>
+        <p class="author">by Chetan Bhagat</p>
+        <p class="book-description">
+          The 3 Mistakes of my life is the third novel written by eminent Indian
+          Author Chetan Bhagat. Based on cricket, business and religion, the
+          novel is set against the backdrop of beautiful city Ahmedabad.
+          Revolving around three young Indian boys Omi, Ishaan and Govind, the
+          book goes on to narrate how the three are trying their best to make
+          ends meet in the city. Based on real events, the book starts with a
+          dramatic twist, where Bhagat is reading an e-mail sent by some young
+          person Govind.
+        </p>
+        <button
+          class="button btn btn-warning"
+          onclick="display('sectionBookStoreHome')"
+        >
+          Back
+        </button>
+        <button class="button btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+    <div id="sectionHarryPotterBookDetails">
+      <div class="book-details-page">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+          class="book-details-page-image"
+        />
+        <h1 class="book-name">Harry Potter</h1>
+        <p class="author">by J.K.Rowling</p>
+        <p class="book-description">
+          Harry Potter's life is miserable. His parents are dead and he's stuck
+          with his heartless relatives, who force him to live in a tiny closet
+          under the stairs. But his fortune changes when he receives a letter
+          that tells him the truth about himself: he's a wizard. A mysterious
+          visitor rescues him from his relatives and takes him to his new home,
+          Hogwarts School of Witchcraft and Wizardry. After a lifetime of
+          bottling up his magical powers, Harry finally feels like a normal kid.
+        </p>
+        <button
+          class="button btn btn-warning"
+          onclick="display('sectionBookStoreHome')"
+        >
+          Back
+        </button>
+        <button class="button btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+  </body>
+</html>
+
+
+*** CSS ***
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.book-store-home-page {
+  background-color: #1b1b1b;
+  padding: 24px;
+}
+
+.home-page-heading {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 28px;
+}
+
+.popular-book-container {
+  background-color: #e6f6ff;
+  border-radius: 8px;
+}
+
+.popular-book-image {
+  width: 126px;
+  height: 180px;
+}
+
+.popular-book-short-details-container {
+  padding: 16px;
+}
+
+.popular-book-heading {
+  color: #183b56;
+  font-family: "Bree Serif";
+  font-size: 16px;
+}
+
+.popular-book-text {
+  color: #06070d;
+  font-family: "Bree Serif";
+  font-size: 12px;
+}
+
+.popular-book-author {
+  color: #183b56;
+  font-family: "Bree Serif";
+  font-size: 10px;
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.recommended-books-heading {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.recommended-book-container {
+  margin-bottom: 10px;
+}
+
+.recommended-book-image {
+  width: 80px;
+  height: 125px;
+}
+
+.recommended-book-short-details-container {
+  margin-left: 10px;
+}
+
+.recommended-book-name {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 16px;
+}
+
+.recommended-book-description {
+  color: #e4e7eb;
+  font-family: "Bree Serif";
+  font-size: 12px;
+}
+
+.book-details-page {
+  background-color: #1b1b1b;
+  padding: 24px;
+  text-align: center;
+}
+
+.book-details-page-image {
+  width: 190px;
+  height: 294px;
+  margin-bottom: 20px;
+}
+
+.book-name {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 28px;
+}
+
+.author {
+  color: #9aa5b1;
+  font-family: "Bree Serif";
+  font-size: 12px;
+}
+
+.book-description {
+  text-align: left;
+  color: #e4e7eb;
+  font-family: "Bree Serif";
+  font-size: 12px;
+  margin-top: 10px;
+}
