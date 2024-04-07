@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.homepage-bg {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.homepage-heading {
+    color: #f19116;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 25px;
+}
+
+.homepage-paragraph {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 18px;
+}
+
+.homepage-button {
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: #f19116;
+    border-width: 0px;
+    margin-top: 10px;
+    color: white;
+}
+
+.flatspage-bg {
+    background-color: #222222;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.flatspagebottom-bg {
+    background-color: #222222;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.flats-subcontainer {
+    background-color: white;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+.flats-image {
+    height: 173px;
+    width: 90px;
+    border-radius: 15px;
+}
+
+.flats-name {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.flats-discription {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.BHKflat-image {
+    height: 40vh;
+}
+
+.amount-text {
+    color: #f19116;
+    font-family: "Bree Serif";
+    text-align: left;
+    font-size: 25px;
+}
+
+.locationicon-image {
+    height: 30px;
+    width: 25px;
+
+}
+
+.address-text {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.line {
+    font-weight: bold;
+    background-color: white;
+}
+
+.BHKflatpage-button {
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: #f19116;
+    border-width: 0px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
