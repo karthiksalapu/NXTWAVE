@@ -1,0 +1,98 @@
+Articles Page
+Easy
+Solved
+
+Helpful
+In this assignment, let's build a Articles Page by applying the concepts we learned till now. You can use the Bootstrap concepts and CCBP UI Kit as well.
+
+
+Refer to the below images.
+
+https://assets.ccbp.in/frontend/content/static-website/articles-output-v2.gif 
+
+Design Files:
+Articles Page:
+
+articles page - https://res.cloudinary.com/dmndvaak8/image/upload/v1705929466/mongo/articles_page_ca4_ojkjku.png
+
+Technology Page:
+
+technology page - https://res.cloudinary.com/dmndvaak8/image/upload/v1705929466/mongo/technology_page_ca4_leq0cz.png
+ 
+
+Science Page:
+
+science page - https://res.cloudinary.com/dmndvaak8/image/upload/v1705929466/mongo/science_page_ca4_xbgsru.png
+ 
+
+Health Care Page:
+
+health care page - https://res.cloudinary.com/dmndvaak8/image/upload/v1705929466/mongo/health_care_page_ca4_bwyu3b.png
+ 
+
+Business Page:
+
+business page - https://res.cloudinary.com/dmndvaak8/image/upload/v1705929466/mongo/business_page_ca4_ybe6gf.png
+ 
+
+Note
+When clicked on each category card, the page should display the List of Topics.
+Try to achieve the design as close as possible.
+Resources
+Use the image URLs given below.
+
+
+Categories Icons Images
+
+https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png
+https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png
+https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png
+https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png
+
+Carousel Images (Technology)
+
+https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png
+https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png
+https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png
+
+Carousel Images (Science)
+
+https://assets.ccbp.in/frontend/static-website/articles-science-c1-img.png
+https://assets.ccbp.in/frontend/static-website/articles-science-c2-img.png
+https://assets.ccbp.in/frontend/static-website/articles-science-c3-img.png
+
+Carousel Images (Health Care)
+
+https://assets.ccbp.in/frontend/static-website/articles-healthcare-c1-img.png
+https://assets.ccbp.in/frontend/static-website/articles-healthcare-c2-img.png
+https://assets.ccbp.in/frontend/static-website/articles-healthcare-c3-img.png
+
+Carousel Images (Business)
+
+https://assets.ccbp.in/frontend/static-website/articles-business-c1-img.png
+https://assets.ccbp.in/frontend/static-website/articles-business-c2-img.png
+https://assets.ccbp.in/frontend/static-website/articles-business-c3-img.png
+
+CSS Colors used:
+
+Background color Hex Code values:
+
+
+#225db0
+#ffffff
+
+Text color Hex Code values:
+
+
+#ffffff
+#1f2933
+
+CSS Font families used:
+
+Roboto
+
+Concepts Review
+Want to quickly review some of the concepts you’ve been learning?
+
+Take a look at the Cheat Sheets.
+
