@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.homepage-bg {
+    background-color: #225db0;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.homepage-heading {
+    color: white;
+    font-family: roboto;
+    font-size: 35px;
+}
+
+.homepage-paragraph {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.cards-container {}
+
+.card-style {
+    background-color: white;
+    height: 130px;
+    width: 180px;
+    margin-right: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-image-size {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.subject-name {
+    text-align: center;
+    color: #1f2933;
+    font-family: roboto;
+    font-size: 13px;
+}
+
+.subjectpage-bg {
+    background-color: #225db0;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.carousel-image {
+    border-radius: 15px;
+}
+
+
+.subjects-container {
+    margin-top: 10px;
+}
+
+.subjectspage-paragraph {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    margin-top: 10px;
+}
+
+.back-button {
+    background-color: #225db0;
+    border-color: white;
+    color: white;
+}
