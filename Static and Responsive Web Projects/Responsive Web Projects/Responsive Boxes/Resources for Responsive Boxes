@@ -1,0 +1,67 @@
+Responsive Boxes
+Easy
+Solved
+
+Helpful
+In this assignment, let's build a Responsive Color Palette by applying the concepts we learned till now.
+
+Refer to the below images.
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px):
+
+block-to-build
+
+Small (Size >= 576px):
+
+block-to-build
+
+Medium (Size >= 768px):
+
+block-to-build
+
+Large (Size >= 992px):
+
+block-to-build
+
+Extra Large (Size >= 1200px):
+
+block-to-build
+
+Note
+Try to achieve the Layout as close as possible.
+Warning
+Always place the columns inside a row, even if it's within an existing column.
+
+Example
+Wrong Usage
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+        Main Column
+            <div class="col-6">Column 1</div>
+            <div class="col-6">Column 2</div>
+        </div>
+    </div>
+</div>
+ 
+HTML
+Correct Usage
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+        Main Column
+            <div class="col-6">Column 1</div>
+            <div class="col-6">Column 2</div>
+        </div>
+    </div>
+</div>
+  
+HTML
+Concepts Review
+Want to quickly review some of the concepts you’ve been learning?
+
+Take a look at the Cheat Sheets.
+
