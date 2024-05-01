@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+#button1 {
+    background-color: #e0e0e0;
+    height: 80px;
+    width: 80px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#button2 {
+    background-color: #6fcf97;
+    height: 80px;
+    width: 80px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#button3 {
+    background-color: #56ccf2;
+    height: 80px;
+    width: 80px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#button4 {
+    background-color: #bb6bd9;
+    height: 80px;
+    width: 80px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+.colornamer {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    margin-top: 10px;
+    font-family: open sans;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.spanitem {
+    color: #49a6e9;
+    font-family: open sans;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: open sans;
+    font-size: 18px;
+}
