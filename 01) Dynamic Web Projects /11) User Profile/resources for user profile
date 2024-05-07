@@ -1,0 +1,25 @@
+User Profile
+Easy
+Solved
+
+Helpful
+In this assignment, let's build a User Profile Page by applying the concepts we learned till now.
+
+Refer to the below image.
+https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/dynamic-webapps/user-profile-v1.png
+
+user-profile
+Instructions:
+
+Use the values of the profileDetails object mentioned in the JS prefilled code to fill the text/image content of the given design
+Dynamically create the HTML elements as children to the HTML container element with the id profileContainer
+The text content of the HTML main heading element should be the value of the name key given in the profileDetails
+The HTML src attribute of the HTML img element should have the value of the imgSrc key given in the profileDetails
+The text content of the HTML paragraph element should be the value of the age key given in the profileDetails
+Note
+Write the code without deleting the prefilled code.
+Try to achieve the design as close as possible.
+Resources
+CSS Font families used:
+
+Roboto
