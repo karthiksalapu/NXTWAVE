@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h1 class="heading">Varanasi</h1>
+                    <p class="description">
+                        The city is very commonly referred to as City of Temples, Holy
+                        City of India, Religious Capital of India, and City of Learning.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5 mb-4">
+                    <img class="w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tabs-varanasi-img.png" />
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="d-flex flex-row justify-content-between">
+                        <button id="aboutButton" class="p-3 button selected-button" onclick="onAboutTab()">
+                            About
+                        </button>
+                        <button id="timeToVisitButton" class="p-3 button" onclick="onTimeToVisitTab()">
+                            Time to visit
+                        </button>
+                        <button id="attractionsButton" class="p-3 button" onclick="onAttractionsTab()">
+                            Attractions
+                        </button>
+                    </div>
+                    <div class="tabs-container">
+                        <div id="aboutTab" class="p-3">
+                            <p class="tab-content">
+                                Varanasi is one of the oldest living cities in the world. Its
+                                Prominence in Hindu mythology is virtually unrevealed. Mark
+                                Twain, the English author and literature, who was enthralled
+                                by the legend and sanctity of Benaras, once wrote, ''Benaras
+                                is older than history, older than tradition, older even than
+                                legend and looks twice as old as all of them put together".
+                            </p>
+                        </div>
+                        <div id="timeToVisitTab" class="p-3">
+                            <p class="tab-content">
+                                October to March is the best time to visit Varanasi because
+                                most of the fairs here are held during this time of the year.
+                                Festivities begin with Diwali and continue to Dev Diwali
+                                celebrated on the 15th day from Diwali. In between, there is
+                                also Annakut. During this time, the ghats are lit with lights
+                                and diyas. Earthen lamps adorn the staircase of the ghats and
+                                are also afloat in the river. Firecrackers burn through the
+                                night, and it's a sight no one should miss.
+                            </p>
+                        </div>
+                        <div id="attractionsTab" class="p-3">
+                            <p class="tab-content">
+                                When visiting Varanasi, one comes across plenty of ghats, but
+                                among them, Dashashwamedh Ghat is said to be one of the oldest
+                                and most important. This ghat, leading to the Ganges, is
+                                located close to the famous old Vishwanath temple in Kashi
+                                (today’s Banaras). Another famous attraction is River Ganges
+                                which is the holiest river by the Hindus and many more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
