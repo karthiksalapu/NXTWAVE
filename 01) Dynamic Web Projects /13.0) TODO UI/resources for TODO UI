@@ -1,0 +1,20 @@
+Todos Application
+Easy
+Solved
+
+Helpful
+In this assignment, let's build a Todos Application by applying the concepts we learned till now.
+
+Refer to the below image.
+https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/dynamic-webapps/todo-application-part-1-v1.png
+
+
+Instructions:
+
+The Todos Application is built and given in the prefilled code. Add the todo items to it using JavaScript.
+Practice adding a single todo item using JavaScript
+Practice adding a checkbox with the label using JavaScript
+Practice adding a delete icon using JavaScript
+Practice adding multiple todo items using JavaScript with the array of todo objects given in the prefilled code using for...of loop
+Warning
+Do not delete the prefilled code.
