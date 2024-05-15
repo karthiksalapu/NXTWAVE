@@ -1,0 +1,28 @@
+Mark your Skills
+Easy
+Solved
+
+Helpful
+In this assignment, let's build a Mark your Skills Page by applying the concepts we learned till now.
+
+Refer to the below image.
+https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/dynamic-webapps/mark-the-skills-v1.gif
+
+Instructions:
+
+Add the HTML main heading element and the unordered list in the HTML container element with the id skillsContainer using HTML.
+Dynamically add the HTML li elements in the HTML ul element.
+Create the HTML checkbox input and label elements in the HTML li element.
+Each checkbox and the label in the list item should have a unique id.
+The id for the HTML input checkbox should be in the format of checkbox and the value of the key uniqueNo in the objects of skillList. For example, checkbox1, checkbox2, checkbox3, etc.
+The id for the HTML label element should be in the format of label and the value of the key uniqueNo in the objects of skillList. For example, label1, label2, label3, etc.
+The id of the HTML checkbox input element and the value of the HTML label element's for attribute should be the same.
+Warning
+Write the code without deleting the prefilled code.
+
+By following the above instructions, achieve the given functionality.
+
+When the HTML checkbox input element or HTML label element is clicked,
+The status of the checkbox should change and add/remove color of the text in the HTML label element based on the status of the checkbox as shown in the image.
+Note
+Use the classList property toggle to achieve the given functionality.
