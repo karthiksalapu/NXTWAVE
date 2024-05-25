@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.greeting-card-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/greeting-card-1-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.greet {
+    color: #1f2933;
+    font-family: "DM Sans";
+    font-weight: bold;
+}
+
+.heading {
+    color: #1f2933;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.new-year {
+    font-size: 75px;
+}
+
+.greet-text-container {
+    text-align: center;
+    height: 80vh;
+}
+
+.greet-text {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 24px;
+}
