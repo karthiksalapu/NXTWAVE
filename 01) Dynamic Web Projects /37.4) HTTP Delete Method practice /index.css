@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: linear-gradient(to right, #acb6e5, #86fce8);
+}
+
+.heading {
+    color: #2d3a8c;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.request-url-text {
+    color: #35469c;
+    font-weight: bold;
+}
+
+.request-url {
+    font-weight: 300;
+}
+
+.user-input {
+    color: #35469c;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7b93db;
+}
+
+.button {
+    color: white;
+    background-color: #4055a8;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+.request-status-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.request-status {
+    color: #4055a8;
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+.response-body-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.http-response {
+    color: #4055a8;
+    font-family: "Roboto";
+    font-size: 14px;
+}
