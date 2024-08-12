@@ -1,0 +1,12 @@
+Keyboard Events
+The goal of this coding exam is to quickly get you off the ground with Keydown event
+
+Use the below reference image
+https://assets.ccbp.in/frontend/content/dynamic-webapps/keyboard-event-op.gif
+
+
+Achieve the given functionality using JS
+
+When the key is entered in the HTML input element with id userInput
+The value in the HTML span element with id keydownCounter should be Incremented
+The value in the HTML span element with id keydownCode should contain the key code of the latest key in the input element.
