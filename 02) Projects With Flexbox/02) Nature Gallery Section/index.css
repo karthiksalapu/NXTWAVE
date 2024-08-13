@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* This will be covered in further sessions */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png');
+    background-size: cover;
+    padding: 50px;
+
+}
+
+.heading {
+    font-family: roboto;
+    color: #323f4b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    max-width: 710px;
+    overflow-x: auto;
+}
+
+.image-gallery {
+    padding: 30px;
+    width: 900px;
+}
+
+
+.image_style {
+    height: 250px;
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0px;
+}
