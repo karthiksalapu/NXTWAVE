@@ -1,0 +1,24 @@
+Dream Car Page
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Dream Car Page by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+Extra Large (Size>=1200px)
+https://assets.ccbp.in/frontend/content/intermediate-rwd/dream-car-output.png
+
+about_robotics
+
+Achieve the design for the devices whose width is greater than or equal to 1200px
+
+Resources
+Use the image URL's given below.
+
+https://assets.ccbp.in/frontend/intermediate-rwd/dream-car-bg.png
+https://assets.ccbp.in/frontend/intermediate-rwd/dream-car-speedometer-img.png
+CSS Colors used:
+#ffffff
+CSS Font families used:
+Roboto
