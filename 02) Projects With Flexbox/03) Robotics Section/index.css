@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/robotics-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 25px;
+
+}
+
+.card-contaier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.items_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: Roboto;
+    color: #1e3a8a;
+    font-size: 55px;
+
+}
+
+.paragraph {
+    font-family: Roboto;
+    color: #1e3a8a;
+    font-size: 25px;
+}
+
+.logo_style {
+    height: 120px;
+    width: 120px;
+}
