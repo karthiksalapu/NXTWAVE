@@ -1,0 +1,22 @@
+4.0 Technologies
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a 4.0 Technologies page by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+https://assets.ccbp.in/frontend/content/intermediate-rwd/technologies-output-v2.png
+
+Instructions:
+The list of technologies should be wrapped into multiple lines.
+Note
+Achieve the design using the CSS Flexbox layout
+Try to achieve the design as close as possible.
+CSS Colors used:
+#222544
+#2d9cca
+#f1f1f1
+#95cae0
+CSS Font families used:
+Roboto
