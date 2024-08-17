@@ -1,0 +1,26 @@
+Travel Benefits
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Travel Benefits by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+https://assets.ccbp.in/frontend/content/intermediate-rwd/travel-benefits-output-v3.png
+
+Instructions:
+The list of benefits should be wrapped in multiple lines
+Note
+Achieve the design using the CSS Flexbox layout
+Try to achieve the design as close as possible.
+Resources
+https://assets.ccbp.in/frontend/intermediate-rwd/cheap-than-other-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/secure-payment-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/best-offers-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/free-amenities-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/top-rated-img.png
+CSS Colors used:
+#183b56
+#5a7184
+CSS Font families used:
+Roboto
