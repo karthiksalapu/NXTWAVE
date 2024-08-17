@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 65px;
+    font-family: Roboto;
+    color: #183b56;
+}
+
+.discription {
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    color: #5a7184;
+    margin-bottom: 80px;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    max-width: 400px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.logo-style {
+    height: 60%;
+    width: 25%;
+}
+
+.feature-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: Roboto;
+    color: #183b56;
+}
+
+.feature-details {
+    text-align: center;
+    font-size: 35px;
+    font-family: Roboto;
+    color: #5a7184;
+}
