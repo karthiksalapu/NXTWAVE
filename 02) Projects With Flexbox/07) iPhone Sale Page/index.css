@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: black;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-container {
+    background-image: linear-gradient(to left, #4b4b4b, #000000);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo-item {
+    height: 60px;
+    width: 120px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.featureText {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.details-container {
+    align-self: flex-start;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.iPhone-img {
+    height: 150px;
+    width: 50%;
+    max-width: 450px;
+    align-self: center;
+}
+
+.weblink {
+    align-self: flex-end;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
