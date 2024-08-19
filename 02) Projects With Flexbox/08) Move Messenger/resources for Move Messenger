@@ -1,0 +1,41 @@
+Move Messenger
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Move Messenger by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px), Small (Size >= 576px): 
+move-messenger-sm
+https://assets.ccbp.in/frontend/content/intermediate-rwd/move-messenger-sm-output.png
+
+
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px):
+move-messenger-md
+https://assets.ccbp.in/frontend/content/intermediate-rwd/move-messenger-md-output.png
+
+Instructions:
+The page should have image on the right in devices equals to and above 768px
+The page should have image on the top in devices below 768px
+Note
+Achieve the design using the CSS Flexbox layout and media queries.
+Try to achieve the design as close as possible.
+Resources
+https://assets.ccbp.in/frontend/intermediate-rwd/move-messenger-img.png
+CSS Colors used:
+Background Color Hex Codes Used:
+
+#fef7e7
+#f1b80b
+
+Text Color Hex Codes Used:
+
+#333333
+#858a8f
+#ffffff
+CSS Font families used:
+Roboto
