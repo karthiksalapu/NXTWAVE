@@ -1,0 +1,24 @@
+iPhone Sale Page
+Solved
+Easy
+
+Helpful
+In this assignment, let's build an iPhone Sale Page by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+https://assets.ccbp.in/frontend/content/intermediate-rwd/iphone-sale-output-v3.png
+
+Instructions:
+Use the HTML nav element to provide navigation links, either within the current document or to other documents.
+Use the CSS align-self property to display the image horizontally center and the website address on the right side bottom of the page.
+Note
+Without using Bootstrap, create the navbar using Flexbox properties.
+Resources
+https://assets.ccbp.in/frontend/intermediate-rwd/iPhone-sale-logo.png
+https://assets.ccbp.in/frontend/intermediate-rwd/iphone-12-img.png
+CSS Colors used:
+#000000
+#ffffff
+#9aa5b1
+CSS Font families used:
+Roboto
