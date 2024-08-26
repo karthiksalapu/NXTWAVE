@@ -1,0 +1,49 @@
+Design Section
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Design Section by applying the CSS concepts we learned till now.
+
+Refer to the below images.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px), Small (Size >= 576px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/design-section-portrait-v1.png
+
+design-section-md
+
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/design-section-landscape-v1.png
+
+
+Instructions:
+
+The page should have two different background images in devices below 768px and devices equal and above 768px.
+The HTML main heading element should have different font-sizes in devices below 768px and devices equal and above 768px.
+Add the given images as background images to the HTML container element.
+Note
+Achieve the design using the CSS Flexbox layout and Media queries.
+Try to achieve the design as close as possible.
+Resources
+Use the image URL's given below.
+
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-bulb-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-1-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-2-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/design-section-3-img.png
+CSS Colors used:
+Background color Hex Code values:
+
+#12022f
+#ffffff
+
+Text color Hex Code values:
+
+#12022f
+#7b8794
+CSS Font families used:
+Roboto
