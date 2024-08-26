@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.bg-container {
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png');
+    background-size: cover;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width : 768px) {
+    .bg-container {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png');
+        justify-content: center;
+        align-items: center;
+        padding: 20%;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 45px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+
+.button-getStarted {
+    background-color: white;
+    color: #183b56;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    border: solid 0px;
+    border-radius: 50px;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.button-Knowmore {
+    background-color: transparent;
+    color: white;
+    border: solid 3px white;
+    border-radius: 502px;
+
+    height: 80px;
+    width: 100%;
+
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+@media (min-width : 768px) {
+    .button-Knowmore {
+        width: 100%;
+    }
+
+    .button-getStarted {
+        width: 100%;
+    }
+}
