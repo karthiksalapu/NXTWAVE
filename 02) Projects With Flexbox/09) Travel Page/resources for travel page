@@ -1,0 +1,35 @@
+Travel Page
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Travel Page by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px), Small (Size >= 576px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/travel-sm-output.png
+
+travel-page-sm
+
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/travel-md-output.png
+
+travel-page-md
+Instructions:
+The page should have two different background images in devices below 768px and devices equal and above 768px
+The HTML main heading element should have different font-sizes in devices below 768px and devices equal and above 768px
+Note
+Achieve the design using the Flexbox layout
+Try to achieve the design as close as possible.
+Resources
+https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png
+https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png
+CSS Colors used:
+#183b56
+#ffffff
+CSS Font families used:
+Roboto
+Open Sans
