@@ -1,0 +1,44 @@
+Freemium Business Model
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Freemium Business Model by applying the CSS concepts we learned till now.
+
+Refer to the below images.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px), Small (Size >= 576px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/freemium-business-model-portrait.png
+
+freemium-business-model-sm
+
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/freemium-business-model-landscape.png
+
+
+Instructions:
+
+For the devices less than 768px, the width of image should be 120px and for the rest of devices it should be 150px.
+For the devices less than 768px, the size of heading should be 24px and for the rest of devices it should be 36px.
+Note
+Achieve the design using the CSS Flexbox layout and Media queries.
+Try to achieve the design as close as possible.
+Resources
+Use the image URL's given below.
+
+https://assets.ccbp.in/frontend/intermediate-rwd/freemium-business-model-1-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/freemium-business-model-2-img.png
+CSS Colors used:
+Background color Hex Code values:
+
+#eff7ff
+#0b4870
+
+Text color Hex Code values:
+
+#f0f0f0
+#f4f3f3
+CSS Font families used:
+Roboto
