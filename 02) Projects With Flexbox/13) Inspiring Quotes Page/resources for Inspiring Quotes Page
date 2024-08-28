@@ -1,0 +1,54 @@
+Inspiring Quotes Page
+Solved
+Easy
+
+Helpful
+In this assignment, let's build an Inspiring Quotes Page by applying the CSS concepts we learned till now.
+
+Refer to the below images.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Extra Small (Size < 576px), Small (Size >= 576px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/inspiring-quotes-output.gif
+
+inspiring_quotes
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/inspiring-quotes-v2-output.png
+
+inspiring_quotes
+Instructions:
+
+Use CSS Flexbox sizing properties to display the content and the image inside the card.
+The content and the image should align properly for all types of devices.
+For the devices less than 768px, the size of heading should be 36px and for the rest of devices it should be 46px.
+For the devices less than 768px, the width of image should be 80px and for the rest of devices it should be 120px.
+Note
+Achieve the design using the CSS Flexbox layout and media queries.
+Try to achieve the design as close as possible.
+Resources
+Use the image URL's given below.
+
+https://assets.ccbp.in/frontend/intermediate-rwd/apj-abudl-kalam-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/albert-einstein-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/mahatma-gandhi-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/swami-vivekananda-img.png
+Font Awsome Icons used:
+fa fa-quote-left
+CSS Colors used:
+Background color Hex Code values:
+
+#c294d1
+#4b4a7e
+#ffffff
+Text color Hex Code values:
+
+#f1f5f9
+#5d408c
+#2a4eaa
+#9e619b
+#391484
+#6e798c
+#081f32
+CSS Font families used:
+Roboto
