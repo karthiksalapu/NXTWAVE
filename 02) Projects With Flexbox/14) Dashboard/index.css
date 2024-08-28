@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.KarthikSalapu {
+    align-self: center;
+    margin-left: 10px;
+}
+
+.profileDiv {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: white;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+.Dashboard-container {
+    background-color: #002159;
+    padding: 10px;
+    min-width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.tempcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.navitems {
+    font-family: "Roboto";
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    height: 45px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fav-bg {
+    background-color: #296eff;
+}
+
+.icon-style {
+    margin-right: 10px;
+}
+
+
+.profile-image-style {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+span {
+    text-align: center;
+    color: white;
+}
+
+.Favourite-container {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favourite-heading {
+    font-size: 35px;
+    font-family: "Roboto";
+    color: #002159;
+}
+
+.category-text {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #002159;
+}
+
+.gallery-images {
+    height: 30%;
+    width: 25%;
+    margin-right: 15px;
+}
