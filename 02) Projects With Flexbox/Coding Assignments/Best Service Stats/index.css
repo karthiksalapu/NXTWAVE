@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    min-height: 100vh;
+}
+
+.coverpage-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-sm-bg.png');
+    height: 60vh;
+    background-size: cover;
+}
+
+.logo-style {
+    height: 90px;
+    width: 140px;
+}
+
+.hotel-name {
+    color: white;
+    font-family: "open sans";
+    font-size: 45px;
+    margin: 0px 0px 0px 10px;
+}
+
+.hotel-caption {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 22px;
+    margin: 0px 0px 0px 10px;
+}
+
+.main-heading {
+    font-size: 45px;
+    font-family: "Roboto";
+    color: #12022f;
+    margin-bottom: 0px;
+}
+
+.discription {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #594d6d;
+}
+
+.details-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-numbers {
+    color: #176fff;
+    font-family: "open sans";
+    font-size: 40px;
+    margin: 0px 70px 00px 70px;
+}
+
+.feature-text {
+    color: #323f4b;
+    font-family: "Open Sans";
+    font-size: 22px;
+    margin: 0px 70px 20px 70px;
+}
+
+.temp {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+@media (min-width : 992px) {
+    .bg-container {
+        display: flex;
+        min-height: 100vh;
+    }
+
+    .coverpage-container {
+        flex-grow: 1;
+        min-width: 45vw;
+        min-height: 100vh;
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-lg-bg-v1.png');
+    }
+
+    .details-container {
+        min-height: 100vh;
+        max-width: 55vw;
+        padding: 100px 50px;
+    }
+
+    .main-heading {
+        font-size: 70px;
+    }
+
+    .discription {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+}
