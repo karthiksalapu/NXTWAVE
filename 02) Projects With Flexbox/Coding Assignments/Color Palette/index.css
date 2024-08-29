@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    padding: 10px;
+}
+
+.main-heading {
+    color: #011e3f;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.color-palette-contianer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-container-base {
+    height: 84px;
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #f87171;
+}
+
+.Orange {
+    background-color: #fb923c;
+}
+
+.Amber {
+    background-color: #fbbf24;
+}
+
+.Yellow {
+    background-color: #facc15;
+}
+
+.Lime {
+    background-color: #facc15;
+}
+
+.Green {
+    background-color: #4ade80;
+}
+
+.Emeraid {
+    background-color: #34d399;
+}
+
+.Cyan {
+    background-color: #22d3ee;
+}
+
+.LightBlue {
+    background-color: #38bdf8;
+}
+
+.Blue {
+    background-color: #60a5fa;
+}
+
+
+.Indigo {
+    background-color: #818cf8;
+}
+
+.Purple {
+    background-color: #c084fc;
+}
+
+.Fuchsia {
+    background-color: #e879f9;
+}
+
+.Pink {
+    background-color: #f472b6;
+}
+
+.Rose {
+    background-color: #fb7185;
+}
