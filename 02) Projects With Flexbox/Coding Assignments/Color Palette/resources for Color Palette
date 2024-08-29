@@ -1,0 +1,42 @@
+Color Palette
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Color Palette by applying the CSS concepts we learned till now.
+
+Refer to the below image.
+https://assets.ccbp.in/frontend/content/intermediate-rwd/color-palette-output.png
+
+
+Instructions:
+
+The text on each card should be centered vertically and horizontally.
+The colors should wrap into multiple lines based on the width available.
+Note
+Achieve the design using the CSS Flexbox layout.
+Try to achieve the design as close as possible.
+CSS Colors used:
+Text Color Hex Codes Used:
+
+#011e3f
+#ffffff
+Background Color Hex Codes Used:
+
+#f87171
+#fb923c
+#fbbf24
+#facc15
+#a3e635
+#4ade80
+#34d399
+#22d3ee
+#38bdf8
+#60a5fa
+#818cf8
+#c084fc
+#e879f9
+#f472b6
+#fb7185
+CSS Font families used:
+Roboto
