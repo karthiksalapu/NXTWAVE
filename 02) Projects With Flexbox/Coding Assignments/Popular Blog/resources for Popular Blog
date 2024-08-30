@@ -1,0 +1,67 @@
+Popular Blog
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Popular Blog by applying the CSS concepts we learned till now.
+
+Refer to the below images.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Devices(size < 768px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/popular-blog-output.gif
+
+popular-blog-sm
+Devices (size >= 768px and size < 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/popular-blog-v1-output.png
+
+
+Devices (Size >= 1200px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/popular-blog-v2-output.png
+
+
+Instructions:
+
+The page should have two different background images for Marketing Strategies and Laptop cards in devices below 768px and devices equal and above 768px.
+Add the given images as background images for the cards.
+For the devices below 992px the heading should be centered and for the rest of devices it should align to the left.
+Quick Tip
+To achieve the output, specify different widths in percentages for different responsive breakpoints for each card.
+Note
+Achieve the design using the CSS Flexbox layout and Media queries.
+Try to achieve the design as close as possible.
+Resources
+Use the image URL's given below.
+
+ Marketing
+
+For devices (size>768px) - https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png
+For devices (size<=768px) - https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png
+Coffee
+
+https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png
+Fruits
+
+https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png
+Nature
+
+https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png
+Interior
+
+https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png
+Laptop
+
+For devices (size>768px) - https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png
+For devices (size<=768px) - https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png
+CSS Colors used:
+Background color Hex Code values:
+
+#95b2ff
+#ffffff
+
+Text color Hex Code values:
+
+#12022f
+CSS Font families used:
+Roboto
