@@ -1,0 +1,54 @@
+Weather Report Section
+Solved
+Easy
+
+Helpful
+In this assignment, let's build a Weather Report Section by applying the CSS concepts we learned till now.
+
+Refer to the below images.
+
+The following images illustrate all device sizes, from extra small to extra large.
+
+Devices (Size < 900px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/weather-report-section-portrait-v2.png
+
+weather-report-section-sm
+
+Devices (Size >= 900px):
+https://assets.ccbp.in/frontend/content/intermediate-rwd/weather-report-section-landscape-v2.png
+
+
+Instructions:
+
+The weather conditions in the section should be horizontal for the devices equals to and above 900px.
+The weather conditions in the section should be vertical for the devices below 900px.
+For the weather conditions, use justify-content property with value space-around to occupy equal space for the devices less than 900px.
+Quick Tip
+The HTML Superscript element sup specifies inline text which is to be displayed as superscript. Refer to the prefilled HTML code.
+Note
+Achieve the design using the CSS Flexbox layout and Media queries.
+Try to achieve the design as close as possible.
+Resources
+Use the image URL's given below.
+
+https://assets.ccbp.in/frontend/intermediate-rwd/partly-sunny-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/partly-cloudy-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/rain-with-sun-img.png
+https://assets.ccbp.in/frontend/intermediate-rwd/sunny-img.png
+CSS Colors used:
+Background color Hex Codes values:
+
+#ffffff20
+Note
+In the above Hex code 20 represents the transparency. Use this as a background color for the devices less than 900px.
+#b96fa1
+#5a3f8c
+
+Border color Hex Code values:
+
+#e9e9e930
+Text color Hex Code values:
+
+#ffffff
+CSS Font families used:
+Roboto
