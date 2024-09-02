@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.airbuds-img {
+    height: 250px;
+    width: 200px;
+    align-self: center;
+}
+
+.buds-name {
+    color: #8e62d9;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.discription {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+.button-style {
+    background-color: #ffdda9;
+    color: #334155;
+    font-family: "Roboto";
+    font-size: 15px;
+
+    align-self: flex-start;
+    height: 40px;
+    width: 135px;
+    border-radius: 20px;
+    border-width: 0px;
+    margin-top: 25px;
+}
+
+
+@media (min-width : 900px) {
+    .bg-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png');
+    }
+
+    .airbuds-img {
+        order: 1;
+        height: 400px;
+        width: 300px;
+    }
+
+    .main-heading {
+        font-size: 40px;
+    }
+
+    .discription {
+        font-size: 18px;
+    }
+}
