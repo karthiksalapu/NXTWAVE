@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (min-width : 900px) {
+    .forecast-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .day-wise-valules {
+        flex-direction: column;
+    }
+
+}
+
+.bg-contianer {
+    background-image: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.details-container {
+    display: flex;
+}
+
+.city-name {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.weather-status {
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.temperature-text {
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.Sunnycloud-img {
+    margin-left: 15px;
+    width: 200px;
+    height: 120px;
+}
+
+.forecast-container {
+    margin-top: 20px;
+
+    border-radius: 20px;
+}
+
+.day-wise-valules {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.none-style {
+    border-bottom: 0px;
+}
+
+.weather-img {
+    height: 50px;
+    width: 50px;
+}
+
+.date-style {
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.temp-style {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.temp-2 {
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-top: 0px;
+}
+
+.weather-type {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+@media(max-width: 899px) {
+    .forecast-container {
+        background-color: #ffffff20;
+    }
+
+    .day-wise-valules {
+        border-bottom: solid 1px #ffffff20;
+    }
+}
