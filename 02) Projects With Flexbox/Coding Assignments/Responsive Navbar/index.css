@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-style {
+    display: none;
+}
+
+.cross-button {
+    display: none;
+}
+
+.navitems-container-sm {
+    display: none;
+}
+
+.navbar-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navitems-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.button-style {
+    align-self: center;
+    background-color: #ffdda9;
+    color: #12022f;
+    font-size: 16px;
+    font-family: "Roboto";
+    border-radius: 25px;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border-width: 0px;
+    margin-left: 15px;
+
+}
+
+.navitems {
+    color: #12022f;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-left: 15px;
+}
+
+.main-heading {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    max-width: 600px;
+    font-family: "Roboto";
+}
+
+
+
+@media (max-width : 576px) {
+    .bg-container {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png');
+        padding: 5px;
+    }
+
+    .icon-style {
+        display: flex;
+    }
+
+    .navitems-container {
+        display: none;
+    }
+
+    .navitems-container-sm {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-style {
+        align-self: flex-start;
+    }
+
+    .cross-button {
+        display: none;
+    }
+
+    .no-display {
+        display: none;
+    }
+
+    .navitems {
+        border-top: solid 2px #e7e5ea;
+        color: #594d6d;
+        font-family: Open Sans;
+        align-self: flex-start;
+        font-weight: 400;
+
+        margin: 15px 15px 15px 15px;
+    }
+
+
+    .button-style {
+        border-top: solid 2px #e7e5ea;
+    }
+}
